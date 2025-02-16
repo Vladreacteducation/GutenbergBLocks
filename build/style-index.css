@@ -1,12 +1,1 @@
-
-.wp-block-genius-myblock {
-  font-size: 100px;
-<<<<<<< HEAD
-  background: rgb(255, 0, 0);
-  
-=======
-  background: #000;
->>>>>>> 458d510 (lint)
-}
-
-/*# sourceMappingURL=style-index.css.map*/
+.wp-block-genius-dynamicblock{background:#000;font-size:100px}

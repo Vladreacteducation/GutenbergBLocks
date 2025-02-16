@@ -7,8 +7,8 @@
  * Author URI: #
  */
 
- function genius_myblock_init(){
+ function genius_dynamicblock_init(){
     register_block_type_from_metadata( __DIR__ );
  }
- add_action('init','genius_myblock_init');
+ add_action('init','genius_dynamicblock_init');
 
