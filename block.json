@@ -8,5 +8,27 @@
 	"textdomain": "dynamicblock",
 	"editorScript": "file:./build/index.js",
 	"style": "file:./build/style-index.css",
-	"editorStyle": "file:./build/index.css"
+	"editorStyle": "file:./build/index.css",
+	"attributes": {
+		"postsPerPage": {
+			"type": "number",
+			"default": 2
+		},
+		"showImage": {
+			"type": "boolean",
+			"default": true
+		},
+		"order": {
+			"type": "string",
+			"default": "desc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"category": {
+			"type": "number",
+			"default": 1
+		}
+	}
 }
